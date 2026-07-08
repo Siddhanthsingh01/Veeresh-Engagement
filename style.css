@@ -1,0 +1,459 @@
+/* ===========================
+   Veeresh ❤️ Anusha
+   Premium Engagement Website
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#080808;
+    color:#fff;
+    overflow-x:hidden;
+}
+
+/* Animated Background */
+
+body{
+    background:linear-gradient(-45deg,#000,#111,#2b1b00,#000);
+    background-size:400% 400%;
+    animation:bg 15s ease infinite;
+}
+
+@keyframes bg{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+/* Hero */
+
+.hero{
+
+    width:100%;
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    padding:40px;
+
+}
+
+.overlay{
+
+    width:100%;
+    max-width:900px;
+
+    padding:40px;
+
+    background:rgba(255,255,255,.08);
+
+    border-radius:25px;
+
+    backdrop-filter:blur(18px);
+
+    box-shadow:0 0 40px rgba(255,215,0,.2);
+
+}
+
+/* Heading */
+
+h1{
+
+    font-family:'Great Vibes',cursive;
+
+    color:#FFD700;
+
+    font-size:75px;
+
+    margin:10px 0;
+
+}
+
+h2{
+
+    color:white;
+
+    margin:20px 0;
+
+    font-size:40px;
+
+}
+
+h3{
+
+    color:#FFD700;
+
+    font-weight:500;
+
+}
+
+.invite{
+
+    font-size:20px;
+
+    margin:30px 0;
+
+    line-height:1.8;
+
+}
+
+/* Couple Image */
+
+.couple{
+
+    width:300px;
+
+    height:300px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:6px solid gold;
+
+    box-shadow:0 0 35px gold;
+
+    margin:30px auto;
+
+    display:block;
+
+    transition:.5s;
+
+}
+
+.couple:hover{
+
+    transform:scale(1.08);
+
+}
+
+/* Countdown */
+
+#countdown{
+
+display:flex;
+
+justify-content:center;
+
+gap:20px;
+
+margin:40px 0;
+
+flex-wrap:wrap;
+
+}
+
+#countdown div{
+
+background:rgba(255,255,255,.08);
+
+padding:20px;
+
+border-radius:15px;
+
+width:120px;
+
+backdrop-filter:blur(15px);
+
+box-shadow:0 0 20px rgba(255,215,0,.25);
+
+transition:.4s;
+
+}
+
+#countdown div:hover{
+
+transform:translateY(-8px);
+
+}
+
+#countdown span{
+
+font-size:45px;
+
+color:#FFD700;
+
+font-weight:bold;
+
+display:block;
+
+}
+
+/* Button */
+
+.btn{
+
+display:inline-block;
+
+margin-top:25px;
+
+padding:15px 45px;
+
+background:linear-gradient(45deg,#FFD700,#FFB700);
+
+color:black;
+
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:50px;
+
+transition:.4s;
+
+box-shadow:0 0 25px gold;
+
+}
+
+.btn:hover{
+
+transform:scale(1.08);
+
+}
+
+/* Sections */
+
+section{
+
+padding:90px 10%;
+
+text-align:center;
+
+}
+
+/* Cards */
+
+.card{
+
+margin:25px auto;
+
+padding:30px;
+
+max-width:550px;
+
+background:rgba(255,255,255,.08);
+
+border-radius:20px;
+
+backdrop-filter:blur(12px);
+
+box-shadow:0 0 20px rgba(255,215,0,.18);
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-8px);
+
+}
+
+/* Google Map Button */
+
+.map{
+
+display:inline-block;
+
+margin-top:30px;
+
+padding:15px 40px;
+
+border-radius:40px;
+
+background:#FFD700;
+
+color:black;
+
+font-weight:bold;
+
+text-decoration:none;
+
+transition:.4s;
+
+}
+
+.map:hover{
+
+transform:scale(1.06);
+
+}
+
+/* Gallery */
+
+.gallery{
+
+display:flex;
+
+justify-content:center;
+
+gap:25px;
+
+flex-wrap:wrap;
+
+}
+
+.gallery img{
+
+width:300px;
+
+height:350px;
+
+object-fit:cover;
+
+border-radius:20px;
+
+border:5px solid gold;
+
+transition:.5s;
+
+box-shadow:0 0 25px rgba(255,215,0,.25);
+
+}
+
+.gallery img:hover{
+
+transform:scale(1.08);
+
+}
+
+/* RSVP */
+
+.rsvp a{
+
+display:inline-block;
+
+margin:15px;
+
+padding:18px 40px;
+
+background:#FFD700;
+
+color:black;
+
+font-weight:bold;
+
+text-decoration:none;
+
+border-radius:40px;
+
+transition:.4s;
+
+}
+
+.rsvp a:hover{
+
+transform:translateY(-5px);
+
+}
+
+/* Floating Animation */
+
+.couple{
+
+animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+0%,100%{
+
+transform:translateY(0);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+}
+
+/* Gold Glow */
+
+h1{
+
+text-shadow:
+
+0 0 10px gold,
+
+0 0 20px gold,
+
+0 0 40px gold;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar{
+
+width:10px;
+
+}
+
+::-webkit-scrollbar-thumb{
+
+background:#FFD700;
+
+border-radius:20px;
+
+}
+
+/* Mobile */
+
+@media(max-width:768px){
+
+h1{
+
+font-size:48px;
+
+}
+
+.couple{
+
+width:220px;
+
+height:220px;
+
+}
+
+#countdown div{
+
+width:90px;
+
+padding:15px;
+
+}
+
+#countdown span{
+
+font-size:30px;
+
+}
+
+.gallery img{
+
+width:90%;
+
+height:auto;
+
+}
+
+.invite{
+
+font-size:17px;
+
+}
+
+}
